@@ -1,90 +1,12 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="jp">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
 
-    <title>ちはのシルバニア</title>
-
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-    <!-- ヘッダー -->
-    <header>
-        <h1 class="logo">TWS</h1>
-
-        <nav>
-            <a href="#news">NEWS</a>
-            <a href="#profile">PROFILE</a>
-            <a href="#album">ALBUM</a>
-        </nav>
-    </header>
-
-    <!-- メインビジュアル -->
-    <main>
-
-        <section class="hero">
-            <div class="hero-text">
-                <p>TWENTY FOUR SEVEN WITH US</p>
-                <h2>WELCOME TO<br>OUR WORLD.</h2>
-                <a href="#news" class="button">DISCOVER MORE ↗</a>
-            </div>
-        </section>
-
-        <!-- ニュース -->
-        <section id="news" class="news">
-            <p class="subtitle">WHAT'S NEW</p>
-            <h2>NEWS</h2>
-
-            <div class="news-container">
-
-                <article class="news-card">
-                    <img src="images/news1.jpg" alt="ニュース写真1">
-                    <p>2026.10.22</p>
-                    <h3>NEW CONTENT</h3>
-                </article>
-
-                <article class="news-card">
-                    <img src="images/news2.jpg" alt="ニュース写真2">
-                    <p>2026.10.20</p>
-                    <h3>NEW ALBUM</h3>
-                </article>
-
-                <article class="news-card">
-                    <img src="images/news3.jpg" alt="ニュース写真3">
-                    <p>2026.10.18</p>
-                    <h3>NEW VIDEO</h3>
-                </article>
-
-            </div>
-        </section>
-
-        <!-- プロフィール -->
-        <section id="profile" class="profile">
-            <p class="subtitle">GET TO KNOW US</p>
-            <h2>PROFILE</h2>
-            <p>
-                Discover our world, our music,
-                and our story.
-            </p>
-        </section>
-
-        <!-- アルバム -->
-        <section id="album" class="album">
-            <h2>DISCOGRAPHY</h2>
-            <p>OUR MUSIC, OUR STORY.</p>
-        </section>
-
-    </main>
-
-    <!-- フッター -->
-    <footer>
-        <p>MY K-POP WEBSITE</p>
-        <p>DESIGNED WITH LOVE.</p>
-    </footer>
+    <title>シルバニアピンセット</title>
+     
 
 </body>
+
 </html>

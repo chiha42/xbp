@@ -1,54 +1,138 @@
-@charset "utf-8";
-/* 冒頭でimport */
-@import url('https://fonts.googleapis.com/css?family=Raleway:700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:400,700&display=swap&subset=japanese');
-/* フォントを指定したいところで */
-
-logo img{
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    object-fit: cover; /* 画像のトリミング */
-}
-
-logotohome img{
-    border-radius: 70%;
-    width: 70px;
-    height: 70px;
-    object-fit: cover; /* 画像のトリミング */
-}
-
-
-
-/* ========== common ========== */
+/* ページ全体 */
 html, body {
-	font-size: 16px;
-	font-family: sans-serif;
-	color: #393939;
-    margin-left: 15px;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    font-family: sans-serif;
+    color: #faf9f9;
+}
+
+/* 背景画像 */
+.bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+    background-image: url("../images/haikei.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    z-index: -1;
+}
+
+/* コンテンツ */
+.container {
+    position: relative;
+    z-index: 1;
+    padding: 40px;
+}
+
+/* タイトル */
+.hero {
+    text-align: center;
+    margin-bottom: 50px;
+}
+/* 写真ページ全体 */
+.photo-page {
+    color: #fdfcfc;
+    text-align: center;
+}
+
+/* タイトル */
+.photo-page .hero {
+    font-size: 45px;
     margin-bottom: 40px;
-	background: #efefef;
+    text-align: center;
+    color: #fdfbfb;
 }
-h1{
-    text-indent: 0em;
+
+/* 説明文 */
+.photo-page p {
+    font-size: 40px;
+    line-height: 1.8;
+    color: #5a5757;
 }
-h2{
-    margin-left: 1em;
-    margin-top: 1em;
+
+/* 写真 */
+.photo-page img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
-h3{
-    margin-left: 2em;
+/* 写真タブ全体 */
+.photo-tabs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 600px;
+    margin: 0 auto;
 }
-div{
-    margin-top: 1em;
-    margin-left: 3em;
+
+/* 写真タブ */
+.photo-tab {
+    display: block;
+    width: auto;
+    padding: 15px;
+
+    background: rgba(166, 209, 222, 0.85);
+    border-radius: 15px;
+
+    text-align: center;
+    text-decoration: none;
+    color: #fefcfc;
+
+    transition: 0.3s;
 }
-p{
-    margin-left: 3em;
+
+/* 写真 */
+.photo-tab img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
 }
-span.blackback{
-    text-indent: 3em;
-    background: #393939;
-    color: #efefef;
+
+/* マウスを乗せたとき */
+.photo-tab:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(251, 251, 251, 0.2);
+}
+
+.photo-page .container {
+    font-size: 20px;
+}
+
+/* 文字の大きさ*/
+.photo-page .hero {
+    font-size: 45px;
+}
+
+.photo-page p {
+    font-size: 40px;
+    line-height: 1.8;
+color: #fffdfd;
+}
+    /* 写真を押した後のページ */
+body {
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 36px;
+    color: #ffffff;
+}
+
+p {
+    font-size: 22px;
+    color: #ffffff;
+}
+
+/* 写真ページ全体 */
+.photo-page {
+    color: #ffffff;
+    text-align: center;
 }
 
